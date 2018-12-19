@@ -1,0 +1,118 @@
+.header{
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    background: linear-gradient(#659EC7, #D1D0CE);
+    padding: 3vh 90px 3vh 30px;
+    color:black;
+}
+
+
+.smol {
+    height: 24vh;
+    width: auto;
+    float: left;
+}
+
+.tvinfo {
+    margin: 10px;
+    float: left;
+    height: 24vh;
+}
+
+.centered-vert {
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     transform: translateY(-50%);
+ }
+
+.centered-vert-2 {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+
+.text{
+    font-size:20px;
+    text-align: center;
+}
+
+.title{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.round-border{
+    border: 2px solid;
+    border-radius: 50px;
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+
+.rating{
+    font-size:35px;
+    text-align: center;
+}
+
+.ratings{
+    float:right;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.smoltext{
+    font-size: 15px;
+    position: relative;
+    top:20%;
+    left:18%;
+}
+
+.rate{
+    position: relative;
+    float: right;
+    left:9%;
+}
+
+.fav{
+    position:relative;
+    top: 85%;
+    left: 79%;
+}
+
+.fav2{
+    position:relative;
+    top: 85%;
+    left: 75%;
+}
+.watched{
+    position:relative;
+    top: 85%;
+    left: 47%;
+}
+.about{
+    padding-left: 30px;
+}
+
+hr{
+    border-color: #ccc;
+}
+
+.episodes{
+    padding-left: 30px;
+}
+
+.center {
+    position: relative;
+    top: 40%;
+    left: 333%;
+    transform: translate(-50%, -50%);
+}

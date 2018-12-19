@@ -1,0 +1,52 @@
+
+@media only screen and (min-width:1280px){
+    .custom_container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1920px){
+    .custom_container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+
+.dimmed {
+    opacity: 0.9;
+    filter: brightness(60%);
+}
+
+
+.poster-container{
+    position:relative;
+    width:213px;
+    height:359px;
+    z-index: initial;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    color: white;
+    font-size: 25px;
+    text-align:center;
+}
+
+.desc{
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+
+.search-bar{
+    float: right;
+}

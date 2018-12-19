@@ -1,0 +1,43 @@
+.header{
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    background: linear-gradient(#659EC7, #D1D0CE);
+    padding: 3vh 90px 3vh 30px;
+    color:black;
+}
+
+.tvinfo{
+    margin: 10px;
+    float: left;
+    height: 24vh;
+}
+
+.title{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+.text{
+    font-size:20px;
+    text-align: center;
+}
+
+.about{
+    padding-left: 30px;
+}
+
+.smol {
+    height: 24vh;
+    width: auto;
+    float: left;
+}
+
+.centered {
+    position: relative;
+    top: 12%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+}
